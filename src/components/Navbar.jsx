@@ -9,7 +9,7 @@ function Navbar() {
             </Link>
             <nav className="navbar-links">
                 <Link to="/">Find a Doctor</Link>
-                <link to="/appointments">My Appointments</link>
+                <Link to="/appointments">My Appointments</Link>
             </nav>
         </header>
     );

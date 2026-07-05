@@ -14,7 +14,7 @@ function DoctorsListPage() {
     }, []);
 
 
-    const filteredDoctors = useMemo = (() => {
+    const filteredDoctors = useMemo(() => {
         return doctors.filter((doc) => {
             const matchesSearch = doc.name
                 .toLowerCase()

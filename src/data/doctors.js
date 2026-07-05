@@ -1,4 +1,4 @@
-const doctors = [
+const doctors = [ //used to identify different doctors for the pages and appointments.
 {
     id: "doc-1",
     name: "Dr. Amina Yusuf",
